@@ -21,6 +21,4 @@ class_desc = net.GetClassDesc(class_idx)
 
 #return image w class and confidence overlay as output
 
-# Code works as expected, but another model should be created using more epochs
-
-print("image is recognized as '{:s}' (class #{:d}) with {:f}% confidence".format(class_desc, class_idx, confidence * 100))  #delete after testing
+print("image is recognized as '{:s}' (class #{:d}) with {:f}% confidence".format(class_desc, class_idx, confidence * 100))  
