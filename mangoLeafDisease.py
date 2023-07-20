@@ -19,4 +19,4 @@ class_idx, confidence = net.Classify(img)
 
 class_desc = net.GetClassDesc(class_idx)
 
-print("image is recognized as '{:s}' (class #{:d}) with {:f}% confidence".format(class_desc, class_idx, confidence * 100))  
+print("image is recognized as '{:s}' (class #{:d}) with {:f}% confidence".format(class_desc, class_idx, confidence * 100)) 
