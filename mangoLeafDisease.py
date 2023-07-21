@@ -12,7 +12,7 @@ opt = parser.parse_args()
 
 img = jetson_utils.loadImage(opt.filename)
 
-net = imageNet(model="models/mangoLeafDisease/resnet18.onnx", labels="models/mangoLeafDisease/labels.txt", 
+net = imageNet(model="models/resnet18.onnx", labels="models/labels.txt", 
                  input_blob="input_0", output_blob="output_0")
 
 class_idx, confidence = net.Classify(img)
