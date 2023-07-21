@@ -8,9 +8,9 @@ import argparse
 
 parser = argparse.ArgumentParser()
 parser.add_argument("filename", type=str, help="filename of the image to process")
-opt = parser.parse_args()
+args = parser.parse_args()
 
-img = jetson_utils.loadImage(opt.filename)
+img = jetson_utils.loadImage(args.filename)
 
 net = imageNet(model="models/resnet18.onnx", labels="models/labels.txt", 
                  input_blob="input_0", output_blob="output_0")
