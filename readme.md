@@ -19,4 +19,4 @@ Once the program has finished running, the resulting class and confidence will b
 
 ## Demo
 
-[View a video explanation here](video link)
+[![PROGRAM DEMO](https://img.youtube.com/vi/l0BZjBVIxRk/0.jpg)](https://youtu.be/l0BZjBVIxRk)
