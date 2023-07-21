@@ -2,8 +2,6 @@
 
 This project identifies the disease of an infected mango leaf using image classification.
 
-![add image descrition here](direct image link here)
-
 ## The Algorithm
 
 The algorithm uses a resnet-18 model that was retrained to identify different diseases in mango leaves through transfer learning. When run, the program will print the class of the disease and the confidence.
