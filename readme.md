@@ -17,4 +17,6 @@ The algorithm uses a resnet-18 model that was retrained to identify different di
 
 Once the program has finished running, the resulting class and confidence will be printed in the terminal.
 
+## Demo
+
 [View a video explanation here](video link)
