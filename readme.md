@@ -10,7 +10,13 @@ The algorithm uses a resnet-18 model that was retrained to identify different di
 
 ## Running this project
 
-1. Add steps for running this project.
-2. Make sure to include any required libraries that need to be installed for your project to run.
+1. Make sure to have [jetson-inference](https://github.com/dusty-nv/jetson-inference/blob/master/docs/building-repo-2.md) already installed on your nano.
+2. Download the 'models' folder and 'mangoLeafDisease.py' files into your nano. (Make sure to place them in the same directory)
+3. cd into the directory where the program is located using ```cd <PATH HERE>```
+4. Run the program by using the following command on the terminal.
+
+   ```python3 mangoLeafDisease.py <PATH TO SAMPLE IMAGE>```
+
+Once the program has finished running, the resulting class and confidence will be printed in the terminal.
 
 [View a video explanation here](video link)
